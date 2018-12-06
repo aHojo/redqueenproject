@@ -1,0 +1,694 @@
+[{
+        "id": 1,
+        "name": "Ana",
+        "description": "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Ana Amari",
+        "age": 60,
+        "height": null,
+        "affiliation": "Overwatch",
+        "base_of_operations": "Cairo, Egypt",
+        "difficulty": 3,
+        "counter": [{
+                "id": 7,
+                "details": "Lucio"
+            },
+            {
+                "id": 11,
+                "details": "Pharah"
+            },
+            {
+                "id": 29,
+                "details": "Moira"
+            }
+        ],
+        "icon_url": "/assets/Ana/AnaLogo.png",
+        "background_url": "/assets/Ana/Ana.webm"
+    },
+    {
+        "id": 2,
+        "name": "Bastion",
+        "description": "Repair protocols and the ability to transform between stationary Assault, mobile Recon and devastating Tank configurations provide Bastion with a high probability of victory.",
+        "health": 200,
+        "armour": 100,
+        "shield": 0,
+        "real_name": "SST Laboratories Siege Automaton E54",
+        "age": 30,
+        "height": 220,
+        "affiliation": null,
+        "base_of_operations": null,
+        "difficulty": 1,
+        "counter": [{
+                "id": 4,
+                "details": "Genji has the mobility to flank Bastion from behind while he is in his turrent form, and the Deflect ability allows Genji to go head to head with Bastion."
+            },
+            {
+                "id": 19,
+                "details": "Widowmaker can easily output the damage needed longrange to take down Bation"
+            },
+            {
+                "id": 14,
+                "details": "Roadhog is able to hook Bastion while he is in turret form, disabling the ability."
+            }
+        ],
+        "icon_url": "/assets/Bastion/BastionLogo.png",
+        "background_url": "/assets/Bastion/Bastion.webm"
+    },
+    {
+        "id": 3,
+        "name": "D.Va",
+        "description": "D.Va’s mech is nimble and powerful—its twin Fusion Cannons blast away with autofire at short range, and she can use its Boosters to barrel over enemies and obstacles, or deflect attacks with her projectile-dismantling Defense Matrix.",
+        "health": 200,
+        "armour": 400,
+        "shield": 0,
+        "real_name": "Hana Song",
+        "age": 19,
+        "height": null,
+        "affiliation": "Mobile Exo-Force of the Korean Army",
+        "base_of_operations": "Busan, South Korea",
+        "difficulty": 2,
+        "counter": [{
+                "id": 13,
+                "details": "Reinhardt is able to negate D.Va's ultimate ability with his Barrier Field ultimate ability."
+            },
+            {
+                "id": 21,
+                "details": "Zarya's Particle Barrier is able to block D.VA's ultimate ability, while outputing more damage than D.VA!"
+            },
+            {
+                "id": 9,
+                "details": "Mei is able to freeze D.VA in place, eliminating her ability to negate damage."
+            }
+        ],
+        "icon_url": "/assets/DVA/DVALogo.png",
+        "background_url": "/assets/DVA/DVAShort.webm"
+    },
+    {
+        "id": 4,
+        "name": "Genji",
+        "description": "Genji flings precise and deadly Shuriken at his targets, and uses his technologically-advanced katana to deflect projectiles or deliver a Swift Strike that cuts down enemies.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Genji Shimada",
+        "age": 35,
+        "height": null,
+        "affiliation": "Shimada Clan",
+        "base_of_operations": "Shambali Monastery, Nepal",
+        "difficulty": 3,
+        "counter": [{
+                "id": 21,
+                "details": "Genji's deflect does not work on Zerya's Particle Cannon. Zarya's Particle Barrier allows her to absorb damage while building damage against Genji."
+            },
+            {
+                "id": 9,
+                "details": "Genji's deflect does not work on Mei's Ice Gun. Freezing Genji in place so he can not escape."
+            },
+            {
+                "id": 20,
+                "details": "Genji's deflect does not work on Winston's Tesla Cannon. Winston's Jump Pack ability allows him to easily follow behind Genji."
+            }
+        ],
+        "icon_url": "/assets/Genji/GenjiLogo.png",
+        "background_url": "/assets/Genji/Genji.webm"
+    },
+    {
+        "id": 5,
+        "name": "Hanzo",
+        "description": "Hanzo’s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Hanzo Shimada",
+        "age": 38,
+        "height": 173,
+        "affiliation": "Shimada Clan",
+        "base_of_operations": "Hanamura, Japan",
+        "difficulty": 3,
+        "counter": [{
+                "id": 20,
+                "details": "With Hanzo's low mobility, Winston is able to capitalize on this, leaping onto Hanzo for some major damage."
+            },
+            {
+                "id": 18,
+                "details": "Tracer has the mobility to overturn the tide, since Hanzo's lack of mobility makes him vulnerable."
+            },
+            {
+                "id": 4,
+                "details": "Genji is able to deflect, and flank Hanzo with his deflect, and Swift Strike abilities."
+            }
+        ],
+        "icon_url": "/assets/Hanzo/HanzoLogo.png",
+        "background_url": "/assets/Hanzo/Hanzo.webm"
+    },
+    {
+        "id": 6,
+        "name": "Junkrat",
+        "description": "Junkrat’s area-denying armaments include a Frag Launcher that lobs bouncing grenades, Concussion Mines that send enemies flying, and Steel Traps that stop foes dead in their tracks.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Jamison Fawkes",
+        "age": 25,
+        "height": 195,
+        "affiliation": "Junkers",
+        "base_of_operations": "Junkertown, Australia",
+        "difficulty": 2,
+        "counter": [{
+                "id": 11,
+                "details": "Pharah's ability to hover in the air makes her a perfect counter to Junkrat, who will have a tough time damaging her."
+            },
+            {
+                "id": 19,
+                "details": "Junkrat has a tough time dealing with long range heroes being a mostly low to mid range damage hero."
+            },
+            {
+                "id": 5,
+                "details": "Hanzo has a long ranged auto attack with his Storm Bow, along with Widowmaker, will make Junkrat's turn tail!"
+            }
+        ],
+        "icon_url": "/assets/Junkrat/JunkratLogo.png",
+        "background_url": "/assets/Junkrat/Junkrat.webm"
+    },
+    {
+        "id": 7,
+        "name": "Lúcio",
+        "description": "On the battlefield, Lúcio’s cutting-edge Sonic Amplifier buffets enemies with projectiles and knocks foes back with blasts of sound. His songs can both heal his team or boost their movement speed, and he can switch between tracks on the fly.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Lúcio Correia dos Santos",
+        "age": 26,
+        "height": 160,
+        "affiliation": null,
+        "base_of_operations": "Rio de Janeiro, Brazil",
+        "difficulty": 2,
+        "counter": [{
+                "id": 9,
+                "details": "Mei"
+            },
+            {
+                "id": 14,
+                "details": "Roadhog"
+            },
+            {
+                "id": 8,
+                "details": "McCree"
+            }
+        ],
+        "icon_url": "/assets/Lucio/LucioLogo.png",
+        "background_url": "/assets/Lucio/Lucio.webm"
+    },
+    {
+        "id": 8,
+        "name": "McCree",
+        "description": "Armed with his Peacekeeper revolver, McCree takes out targets with deadeye precision and dives out of danger with eagle-like speed.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Jesse McCree",
+        "age": 37,
+        "height": 185,
+        "affiliation": "Deadlock Gang",
+        "base_of_operations": "Santa Fe, New Mexico",
+        "difficulty": 2,
+        "counter": [{
+                "id": 19,
+                "details": "Widowmaker can easily headshot, instantly killing McCree while McCree uses his ultimate ability."
+            },
+            {
+                "id": 1,
+                "details": "Ana is able to use her Sleep Dart ability to sleep McCree when he uses his ultimate ability."
+            },
+            {
+                "id": 4,
+                "details": "Genji is able to use deflect to deflect McCree's ultimate ability and his Flashbang."
+            }
+        ],
+        "icon_url": "/assets/McCree/McCreeLogo.png",
+        "background_url": "/assets/McCree/McCree.webm"
+    },
+    {
+        "id": 9,
+        "name": "Mei",
+        "description": "Mei’s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against counterattacks, or obstruct the opposing team's movements with an Ice Wall.",
+        "health": 250,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Mei-Link Zhou",
+        "age": 31,
+        "height": 160,
+        "affiliation": "Overwatch",
+        "base_of_operations": "Xi'an, China",
+        "difficulty": 3,
+        "counter": [{
+                "id": 9,
+                "details": "Mei is able to freeze D.VA in place, eliminating her ability to negate damage."
+            },
+            {
+                "id": 13,
+                "details": "Reinhardt"
+            },
+            {
+                "id": 14,
+                "details": "Roadhog"
+            }
+        ],
+        "icon_url": "/assets/Mei/MeiLogo.png",
+        "background_url": "/assets/Mei/Mei.webm"
+    },
+    {
+        "id": 10,
+        "name": "Mercy",
+        "description": "Mercy’s Valkyrie Suit helps keep her close to teammates like a guardian angel; healing, resurrecting or strengthening them with the beams emanating from her Caduceus Staff.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Angela Ziegler",
+        "age": 37,
+        "height": 170,
+        "affiliation": "Overwatch",
+        "base_of_operations": "Zürich, Switzerland",
+        "difficulty": 1,
+        "counter": [{
+                "id": 18,
+                "details": "Tracer"
+            },
+            {
+                "id": 14,
+                "details": "Roadhog"
+            },
+            {
+                "id": 15,
+                "details": ""
+            }
+        ],
+        "icon_url": "/assets/Mercy/MercyLogo.png",
+        "background_url": "/assets/Mercy/Mercy.webm"
+    },
+    {
+        "id": 11,
+        "name": "Pharah",
+        "description": "Soaring through the air in her combat armor, and armed with a launcher that lays down high-explosive rockets, Pharah is a force to be reckoned with.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Fareeha Amari",
+        "age": 32,
+        "height": 180,
+        "affiliation": "Helix Security International",
+        "base_of_operations": "Giza, Egypt",
+        "difficulty": 1,
+        "counter": [{
+                "id": 19,
+                "details": "Widowmaker hard counters Pharah with her ability to snipe Pharah easily out of the air."
+            },
+            {
+                "id": 15,
+                "details": "Soldier has a medium to long range auto attack, which makes Pharah's ability to stay in the air extremely difficult."
+            },
+            {
+                "id": 5,
+                "details": "Hanzo has a long ranged auto attack with his Storm Bow, along with Widowmaker, will make Pharah's flight time short."
+            }
+        ],
+        "icon_url": "/assets/Pharah/PharahLogo.png",
+        "background_url": "/assets/Pharah/Pharah.webm"
+    },
+    {
+        "id": 12,
+        "name": "Reaper",
+        "description": "Hellfire Shotguns, the ghostly ability to become immune to damage, and the power to step between shadows make Reaper one of the deadliest beings on Earth.",
+        "health": 250,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Gabriel Reyes",
+        "age": 56,
+        "height": 185,
+        "affiliation": "Overwatch",
+        "base_of_operations": "Los Angeles, California, United States of America",
+        "difficulty": 1,
+        "counter": [{
+                "id": 11,
+                "details": "Pharah's Jump Jet ability allows her to avoid the short range damage that Reaper devastates with. Along with her Rocket Launcher, and Concussive Blast, Pharah is an excellent pick against Reaper."
+            },
+            {
+                "id": 8,
+                "details": "McCree is able to use his Flash Bang to interrupt Reaper's ultimate ability, and with McCree's long range damage, McCree can devestate Reaper."
+            },
+            {
+                "id": 21,
+                "details": "With Zarya's Particle Barrier, Reaper will have a tough time scratching her health bar, and healing with his passive ability. "
+            }
+        ],
+        "icon_url": "/assets/Reaper/ReaperLogo.png",
+        "background_url": "/assets/Reaper/Reaper.webm"
+    },
+    {
+        "id": 13,
+        "name": "Reinhardt",
+        "description": "Clad in powered armor and swinging his hammer, Reinhardt leads a rocket-propelled charge across the battleground and defends his squadmates with a massive energy barrier.",
+        "health": 300,
+        "armour": 200,
+        "shield": 0,
+        "real_name": "Reinhardt Wilhelm",
+        "age": 61,
+        "height": 223,
+        "affiliation": "Overwatch",
+        "base_of_operations": "Stuttgart, Germany",
+        "difficulty": 1,
+        "counter": [{"id": 2, "details": "Bastion"},
+            {"id": 12, "details": "Reaper"},
+            {"id": 6, "details": "Junkrat"}
+        ],
+        "icon_url": "/assets/Reinhardt/Reinhardt.png",
+        "background_url": "/assets/Reinhardt/Reinhardt.webm"
+    },
+    {
+        "id": 14,
+        "name": "Roadhog",
+        "description": "Roadhog uses his signature Chain Hook to pull his enemies close before shredding them with blasts from his Scrap Gun. He’s hardy enough to withstand tremendous damage, and can recover his health with a short breather.",
+        "health": 600,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Mako Rutledge",
+        "age": 48,
+        "height": 220,
+        "affiliation": "Australian Liberation Front",
+        "base_of_operations": "Junkertown, Australia",
+        "difficulty": 1,
+        "counter": [{"id": 1, "details": "Ana"},
+            {"id": 9, "details": "Mei"},
+            {"id": 12, "details": "Reaper"}
+        ],
+        "icon_url": "/assets/Roadhog/RoadhogLogo.png",
+        "background_url": "/assets/Roadhog/Roadhog.webm"
+    },
+    {
+        "id": 15,
+        "name": "Soldier: 76",
+        "description": "Armed with cutting-edge weaponry, including an experimental pulse rifle that’s capable of firing spirals of high-powered Helix Rockets, Soldier: 76 has the speed and support know-how of a highly trained warrior.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Jack Morrison",
+        "age": 55,
+        "height": 185,
+        "affiliation": "Overwatch",
+        "base_of_operations": null,
+        "difficulty": 1,
+        "counter": [{"id": 1, "details": "Ana"},
+            {"id": 13, "details": "Reinhardt"},
+            {"id": 24, "details": "Orisa"}
+        ],
+        "icon_url": "/assets/Soldier76/Soldier76Logo.png",
+        "background_url": "/assets/Soldier76/Soldier76.webm"
+    },
+    {
+        "id": 16,
+        "name": "Symmetra",
+        "description": "Symmetra utilizes her light-bending Photon Projector to dispatch adversaries, shield her associates, construct teleportation pads and deploy particle-blasting Sentry Turrets.",
+        "health": 100,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Satya Vaswani",
+        "age": 28,
+        "height": 170,
+        "affiliation": "Vishkar Corporation",
+        "base_of_operations": "Utopaea, India",
+        "difficulty": 2,
+        "counter": [{"id": 11, "details": "Pharah"},
+            {"id": 20, "details": "Winston"},
+            {"id": 6, "details": "Junkrat"}
+        ],
+        "icon_url": "/assets/Symmetra/Symmetra.png",
+        "background_url": "/assets/Symmetra/Symmetra.webm"
+    },
+    {
+        "id": 17,
+        "name": "Torbjörn",
+        "description": "Torbjörn’s extensive arsenal includes a rivet gun and hammer, as well as a personal forge that he can use to build upgradeable turrets and dole out protective armor packs.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Torbjörn Lindholm",
+        "age": 57,
+        "height": 140,
+        "affiliation": "Overwatch",
+        "base_of_operations": "Gothenburg, Sweden",
+        "difficulty": 2,
+        "counter": [{"id": 6, "details": "Junkrat"},
+            {"id": 5, "details": "Hanzo"},
+            {"id": 11, "details": "Pharah"}
+        ],
+        "icon_url": "/assets/Torbjorn/Torbjorn.png",
+        "background_url": "/assets/Torbjorn/Torbjorn.webm"
+    },
+    {
+        "id": 18,
+        "name": "Tracer",
+        "description": "Toting twin pulse pistols, energy-based time bombs, and rapid-fire banter, Tracer is able to \\blink\\\" through space and rewind her personal timeline as she battles to right wrongs the world over.\"\"\"",
+        "health": 150,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Lena Oxton",
+        "age": 26,
+        "height": 162,
+        "affiliation": "Overwatch",
+        "base_of_operations": "London, England",
+        "difficulty": 2,
+        "counter": [{"id": 8, "details": "McCree"},
+            {"id": 23, "details": "Sombra"},
+            {"id": 6, "details": "Junkrat"}
+        ],
+        "icon_url": "/assets/Tracer/Tracer.png",
+        "background_url": "/assets/Tracer/Tracer.webm"
+    },
+    {
+        "id": 19,
+        "name": "Widowmaker",
+        "description": "Widowmaker equips herself with whatever it takes to eliminate her targets, including mines that dispense poisonous gas, a visor that grants her squad infra-sight, and a powerful sniper rifle that can fire in fully-automatic mode.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Amélie Lacroix",
+        "age": 33,
+        "height": 175,
+        "affiliation": "Talon",
+        "base_of_operations": "Annecy, France",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Widowmaker/WidowmakerLogo.png",
+        "background_url": "/assets/Widowmaker/Widowmaker.webm"
+    },
+    {
+        "id": 20,
+        "name": "Winston",
+        "description": "Winston wields impressive inventions—a jump pack, electricity-blasting Tesla Cannon, portable shield projector and more—with literal gorilla strength.",
+        "health": 400,
+        "armour": 100,
+        "shield": 0,
+        "real_name": "Winston",
+        "age": 29,
+        "height": 220,
+        "affiliation": "Overwatch",
+        "base_of_operations": "Watchpoint Gibraltar",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Winston/WinstonLogo.png",
+        "background_url": "/assets/Winston/Winston.webm"
+    },
+    {
+        "id": 21,
+        "name": "Zarya",
+        "description": "Deploying powerful personal barriers that convert incoming damage into energy for her massive Particle Cannon, Zarya is an invaluable asset on the front lines of any battle.",
+        "health": 200,
+        "armour": 0,
+        "shield": 200,
+        "real_name": "Aleksandra Zaryanova",
+        "age": 28,
+        "height": 195,
+        "affiliation": "Russian Defense Forces",
+        "base_of_operations": "Krasnoyarsk Front, Russia",
+        "difficulty": 3,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Zarya/ZaryaLogo.png",
+        "background_url": "/assets/Zarya/Zarya.webm"
+    },
+    {
+        "id": 22,
+        "name": "Zenyatta",
+        "description": "Zenyatta calls upon orbs of harmony and discord to heal his teammates and weaken his opponents, all while pursuing a transcendent state of immunity to damage.",
+        "health": 50,
+        "armour": 0,
+        "shield": 150,
+        "real_name": "Tekhartha Zenyatta",
+        "age": 20,
+        "height": 172,
+        "affiliation": "The Shambali",
+        "base_of_operations": "Shambali Monastery, Nepal",
+        "difficulty": 3,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Zenyatta/ZenyattaLogo.png",
+        "background_url": "/assets/Zenyatta/Zenyatta.webm"
+    },
+    {
+        "id": 23,
+        "name": "Sombra",
+        "description": "Stealth and debilitating attacks make Sombra a powerful infiltrator. Her hacking can disrupt her enemies, ensuring they're easier to take out, while her EMP provides the upper hand against multiple foes at once. Sombra’s ability to Translocate and camouflage herself makes her a hard target to pin down.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "░░░░░░",
+        "age": 30,
+        "height": null,
+        "affiliation": "Talon",
+        "base_of_operations": "Dorado, Mexico",
+        "difficulty": 3,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Sombra/Sombra.png",
+        "background_url": "/assets/Sombra/Sombra.webm"
+    },
+    {
+        "id": 24,
+        "name": "Orisa",
+        "description": "Orisa serves as the central anchor of her team, and defends her teammates from the frontline with a protective barrier. She can attack from long range, fortify her own defenses, launch graviton charges to slow and move enemies, and deploy a Supercharger to boost the damage output of multiple allies at once.",
+        "health": 200,
+        "armour": 200,
+        "shield": 0,
+        "real_name": "Orisa",
+        "age": null,
+        "height": null,
+        "affiliation": null,
+        "base_of_operations": "Numbani",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Orisa/OrisaLogo.png",
+        "background_url": "/assets/Orisa/Orisa.webm"
+    },
+    {
+        "id": 25,
+        "name": "Ashe",
+        "role": "Damage",
+        "description": "Ashe quickly fires her rifle from the hip or uses her weapon’s aim-down sights to line up a high damage shot. She blasts enemies by throwing dynamite, and her coach gun packs enough punch to put some distance between her and her foes. And Ashe is not alone, as she can call on her omnic ally B.O.B., to join the fray when the need arises.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Elizabeth Caledonia \"Calamity\" Ashe",
+        "age": 39,
+        "height": null,
+        "affiliation": "Deadlock Gang",
+        "base_of_operations": "Numbani",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Ashe/AsheLogo.png",
+        "background_url": "/assets/Ashe/Ashe.webm"
+    },
+    {
+        "id": 26,
+        "name": "Wrecking Ball",
+        "role": "Tank",
+        "description": "Wrecking Ball rolls across the battlefield, using his arsenal of weapons and his mech’s powerful body to crush his enemies.",
+        "health": 500,
+        "armour": 100,
+        "shield": 0,
+        "real_name": "Hammond",
+        "age": 39,
+        "height": null,
+        "affiliation": "Lucheng Interstellar",
+        "base_of_operations": "Horizon Lunar Colony ",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/WreckingBall/WreckingBallLogo.png",
+        "background_url": "/assets/WreckingBall/WreckingBall.webm"
+    },
+    {
+        "id": 27,
+        "name": "Doomfist",
+        "role": "Damage",
+        "description": "Doomfist’s cybernetics make him a highly-mobile, powerful frontline fighter. In addition to dealing ranged damage with his Hand Cannon, Doomfist can slam the ground, knock enemies into the air and off balance, or charge into the fray with his Rocket Punch. When facing a tightly packed group, Doomfist leaps out of view, then crashes down to earth with a spectacular Meteor Strike.",
+        "health": 250,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Akande Ogundimu",
+        "age": 45,
+        "height": null,
+        "affiliation": "Talon",
+        "base_of_operations": "Oyo, Nigeria ",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Doomfist/DoomfistLogo.png",
+        "background_url": "/assets/Doomfist/Doomfist.webm"
+    },
+    {
+        "id": 28,
+        "name": "Brigitte",
+        "role": "Support",
+        "description": "Brigitte specializes in armor. She can throw Repair Packs to heal teammates, or automatically heal nearby allies when she damages foes with her Flail. Her Flail is capable of a wide swing to strike multiple targets, or a Whip Shot that stuns [sic] an enemy at range. When entering the fray, Barrier Shield provides personal defense while she attacks enemies with Shield Bash. Brigitte’s ultimate ability, Rally, gives her a substantial short-term boost of speed and provides long-lasting armor to all her nearby allies.",
+        "health": 200,
+        "armour": 50,
+        "shield": 0,
+        "real_name": "Brigitte Lindholm",
+        "age": 23,
+        "height": null,
+        "affiliation": "Reinhardt Wilhelm",
+        "base_of_operations": "Gothenburg, Sweden",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Brigitte/BrigitteLogo.png",
+        "background_url": "/assets/Brigitte/Bridgette.webm"
+    },
+    {
+        "id": 29,
+        "name": "Moira",
+        "role": "Support",
+        "description": "Moira’s biotic abilities enable her to contribute healing or damage in any crisis. While Biotic Grasp gives Moira short-range options, her Biotic Orbs contribute longer-range, hands-off damage and healing; she can also Fade to escape groups or remain close to allies in need of support. Once she’s charged Coalescence, Moira can save multiple allies from elimination at once or finish off weakened enemies.",
+        "health": 200,
+        "armour": 0,
+        "shield": 0,
+        "real_name": "Moira O'Deorain",
+        "age": 48,
+        "height": null,
+        "affiliation": "Blackwatch",
+        "base_of_operations": "Dublin, Ireland",
+        "difficulty": 2,
+        "counter": [{},
+            {},
+            {}
+        ],
+        "icon_url": "/assets/Moira/MoiraLogo.png",
+        "background_url": "/assets/Moira/Moira.webm"
+    }
+]

@@ -1,0 +1,24 @@
+/* basic browser reset */
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit; /* each element will inherit from the body box sizing */
+}
+
+/* set the root font size in the htmltag */
+html {
+    font-size: 62.5%; /* default is usually 16px for browsers. we want 10px so 10/16 * 100 */
+}
+/* Set the set wide font settings */
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7; /* Figure out what is the default */
+    color: $color-white;
+    /* padding: 30px; */
+    padding: .5rem; /* 30/10 */
+    box-sizing: border-box; /* Width padding margin aren't added together */
+}

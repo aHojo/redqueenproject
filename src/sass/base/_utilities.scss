@@ -1,0 +1,19 @@
+.tab {
+    
+    &-height {
+        height: 4.5rem;
+    }
+
+    &-padding {
+        padding: .1rem;
+    }
+
+    &-relative {
+        display: flex;
+    }
+}
+
+.vt-ht-center {
+    align-items: center;
+    justify-content: center;
+}

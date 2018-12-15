@@ -10,10 +10,15 @@
 
     &-relative {
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-.vt-ht-center {
-    align-items: center;
-    justify-content: center;
+.ut-hero-heading {
+    text-align: center !important;
+}
+
+.ut-margin-bottom-big {
+    margin-bottom: 1rem;
 }

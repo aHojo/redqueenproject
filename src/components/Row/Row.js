@@ -2,7 +2,7 @@ import React from 'react';
 
 const Row = (props) => {
     return (
-        <div className={props.styles}>
+        <div className="row">
             {props.children}
         </div>
     );

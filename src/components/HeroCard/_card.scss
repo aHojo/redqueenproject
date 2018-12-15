@@ -2,34 +2,36 @@
     position: relative;
     border: 1px solid red;
     width: 100%;
-    height: 20rem;
+    
 }
 
 .position {
 
     &-tab {
-        position: absolute;
-        width: 100%;
-        
-        bottom: 0;
+        padding: 0 .5rem;
     }
 
 
 }
 
-.main-statsbox {
-    padding: .5rem;
-    height: 15rem;
+.main {
 
-    &__description {
+    border: 1px solid black;
+    box-shadow: 0 .1rem 3rem rgba(black, .15);
+    &-statsbox {
+        padding: .5rem;
+        height: 15rem;
+
+        &__description {
+            color: black;
+            overflow: hidden;
+            padding: 1rem;
+        }
+    }
+
+    &-stats {
         color: black;
-        overflow: hidden;
-        padding: 1rem;
+        border: 1px solid blue;
+        text-align: center;
     }
-}
-
-.main-stats {
-    color: black;
-    border: 1px solid blue;
-    text-align: center;
 }

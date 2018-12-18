@@ -1,4 +1,7 @@
 .tab {
+    display: inline-block;
+    padding: 0 .5rem;
+    
     
     &-height {
         height: 4.5rem;
@@ -13,6 +16,18 @@
         align-items: center;
         justify-content: center;
     }
+
+    &-border {
+        border-left: 1px solid red;
+        border-top: 1px solid red;
+        border-radius: .4rem;
+        
+    }
+
+    &-active {
+        border-left: 5px solid red;
+        border-radius: .4rem;
+    }
 }
 
 .ut-hero-heading {
@@ -21,4 +36,14 @@
 
 .ut-margin-bottom-big {
     margin-bottom: 1rem;
+}
+
+
+.counter-invis {
+    opacity: 0;
+    display: none;
+}
+
+.margin-sides-small {
+    margin: 0 .5rem;
 }

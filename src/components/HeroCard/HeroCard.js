@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 import Row from '../Row';
 import Column from '../Column';
 import HeroIcon from '../HeroIcon';
-import CounterIcon from '../CounterIcon';
 import CounterCard from '../CounterCard';
-
+import CounterTabs from '../CounterTabs';
 import HeroData from "../../utils/heroes.json";
 
 export default class HeroCard extends Component {
     state = {
-        "hero": null
+        "hero": null,
+        "tabState": false,
+        "currentTab": null
     }
 
 
@@ -20,8 +21,31 @@ export default class HeroCard extends Component {
         })
     }
 
-    render() {
 
+    handleTabClick = (id) => {
+        let {currentTab} = this.state;
+        
+
+        if(currentTab === id) {
+            this.setState(() => {
+                return {
+                    "tabState": false,
+                    "currentTab": null
+                }
+            });
+        }
+        else
+        {
+            this.setState(() => {
+                return {
+                    "tabState": true,
+                    "currentTab": id
+                }
+            });
+        }
+    } 
+    render() {
+        let {tabState, currentTab} = this.state;
         return (
             
                 <div className='container'>
@@ -64,42 +88,15 @@ export default class HeroCard extends Component {
                         </Column>
                     </Row>
                     </div>
-                    <Row style={{"marginBottom": "0"}}>
-                        <div className="position-tab">
-                            <Column column="col-1-of-3">
-                                <div className="row">
-                                    <div className="col-1-of-2 tab-height tab-padding">
-                                        <CounterIcon size="150" />
-                                    </div>
-                                    <div className="col-1-of-2 tab-height tab-padding tab-relative">
-                                        <h3 className="vt-ht-center">Hanzo</h3>
-                                    </div>
-                                </div>
-                            </Column>
-                            <Column column="col-1-of-3">
-                                <div className="row">
-                                    <div className="col-1-of-2 tab-height tab-padding">
-                                        <CounterIcon size="150" />
-                                    </div>
-                                    <div className="col-1-of-2 tab-height tab-padding tab-relative">
-                                        <h3 className="vt-ht-center">Hanzo</h3>
-                                    </div>
-                                </div>
-                            </Column>
-                            <Column column="col-1-of-3">
-                                <div className="row">
-                                    <div className="col-1-of-2 tab-height tab-padding">
-                                        <CounterIcon size="150" />
-                                    </div>
-                                    <div className="col-1-of-2 tab-height tab-padding tab-relative">
-                                        <h3 className="vt-ht-center">Hanzo</h3>
-                                    </div>
-                                </div>
-                            </Column>
-                        </div>  
-                    </Row>
+                    <div className="margin-sides-small">
+                        <div className="row">
+                            <CounterTabs tabClick={this.handleTabClick} heroID="1" currentTab={currentTab} />
+                            <CounterTabs tabClick={this.handleTabClick} heroID="2" currentTab={currentTab} />
+                            <CounterTabs tabClick={this.handleTabClick} heroID="3" currentTab={currentTab} />
+                        </div>
+                    </div>
                     
-                    <CounterCard  />
+                    <CounterCard  visibility={tabState} />
                     
             </div>
         )

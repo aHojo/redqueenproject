@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CounterIcon from '../CounterIcon';
-import Row from '../Row';
-export default class CounterCard extends Component {
 
-    render() {
+
+const  CounterCard = ({visibility, tabClick}) => {
+
         return (
-            <Row>
-                <div className="counter-card">
+            
+                <div onClick={tabClick} className={visibility ? "counter-card" : "counter-card counter-invis"}>
                     <div className="counter-card__content">
                         <div className="counter-card__left">
                             <CounterIcon size="150" />
@@ -43,7 +43,8 @@ export default class CounterCard extends Component {
                         </div>
                     </div>
                 </div>
-            </Row>
+            
         )
-    }
 }
+
+export default CounterCard;

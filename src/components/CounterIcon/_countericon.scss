@@ -1,8 +1,11 @@
 .counter {
     height: 100%;
+    border-radius: .4rem;
+    overflow: hidden;
 
     &__icon {
         height: 100%;
         width: 100%;
+        border-radius: .4rem;
     }
 }

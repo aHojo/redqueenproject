@@ -1,10 +1,10 @@
 import React from 'react';
 
-const HeroIcon = (props) => {
+const HeroIcon = ({heroImg}) => {
 
     return (
         <div className='hero'>
-            <img className='hero__icon' src={`https://via.placeholder.com/${props.size}`} alt="" />
+            <img className='hero__icon' src={`${heroImg}`} alt="Hero" />
         </div>
     );
 }

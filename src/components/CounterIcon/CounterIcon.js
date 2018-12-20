@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CounterIcon = (props) => {
+const CounterIcon = ({counterIcon}) => {
 
     return (
         <div className='counter'>
-            <img className='counter__icon' src={`https://via.placeholder.com/${props.size}`} alt="Counter Hero" />
+            <img className='counter__icon' src={counterIcon} alt="Counter Hero" />
         </div>
     );
 }

@@ -19,6 +19,7 @@ const arrayToMap = (array) => {
   }, {});
 };
 
+//Render our hero cards for the app to use. 
 const heroRender = (heroList) => {
 
   return (

@@ -11,7 +11,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "Cairo, Egypt",
         "difficulty": 3,
-        "counter": [{
+        "counters": [{
                 "id": 7,
                 "details": "Lucio"
             },
@@ -40,7 +40,7 @@
         "affiliation": null,
         "base_of_operations": null,
         "difficulty": 1,
-        "counter": [{
+        "counters": [{
                 "id": 4,
                 "details": "Genji has the mobility to flank Bastion from behind while he is in his turrent form, and the Deflect ability allows Genji to go head to head with Bastion."
             },
@@ -69,7 +69,7 @@
         "affiliation": "Mobile Exo-Force of the Korean Army",
         "base_of_operations": "Busan, South Korea",
         "difficulty": 2,
-        "counter": [{
+        "counters": [{
                 "id": 13,
                 "details": "Reinhardt is able to negate D.Va's ultimate ability with his Barrier Field ultimate ability."
             },
@@ -98,7 +98,7 @@
         "affiliation": "Shimada Clan",
         "base_of_operations": "Shambali Monastery, Nepal",
         "difficulty": 3,
-        "counter": [{
+        "counters": [{
                 "id": 21,
                 "details": "Genji's deflect does not work on Zerya's Particle Cannon. Zarya's Particle Barrier allows her to absorb damage while building damage against Genji."
             },
@@ -127,7 +127,7 @@
         "affiliation": "Shimada Clan",
         "base_of_operations": "Hanamura, Japan",
         "difficulty": 3,
-        "counter": [{
+        "counters": [{
                 "id": 20,
                 "details": "With Hanzo's low mobility, Winston is able to capitalize on this, leaping onto Hanzo for some major damage."
             },
@@ -156,9 +156,9 @@
         "affiliation": "Junkers",
         "base_of_operations": "Junkertown, Australia",
         "difficulty": 2,
-        "counter": [{
+        "counters": [{
                 "id": 11,
-                "details": "Pharah's ability to hover in the air makes her a perfect counter to Junkrat, who will have a tough time damaging her."
+                "details": "Pharah's ability to hover in the air makes her a perfect counters to Junkrat, who will have a tough time damaging her."
             },
             {
                 "id": 19,
@@ -185,7 +185,7 @@
         "affiliation": null,
         "base_of_operations": "Rio de Janeiro, Brazil",
         "difficulty": 2,
-        "counter": [{
+        "counters": [{
                 "id": 9,
                 "details": "Mei"
             },
@@ -214,7 +214,7 @@
         "affiliation": "Deadlock Gang",
         "base_of_operations": "Santa Fe, New Mexico",
         "difficulty": 2,
-        "counter": [{
+        "counters": [{
                 "id": 19,
                 "details": "Widowmaker can easily headshot, instantly killing McCree while McCree uses his ultimate ability."
             },
@@ -233,7 +233,7 @@
     {
         "id": 9,
         "name": "Mei",
-        "description": "Mei’s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against counterattacks, or obstruct the opposing team's movements with an Ice Wall.",
+        "description": "Mei’s weather-altering devices slow opponents and protect locations. Her Endothermic Blaster unleashes damaging icicles and frost streams, and she can Cryo-Freeze herself to guard against countersattacks, or obstruct the opposing team's movements with an Ice Wall.",
         "health": 250,
         "armour": 0,
         "shield": 0,
@@ -243,7 +243,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "Xi'an, China",
         "difficulty": 3,
-        "counter": [{
+        "counters": [{
                 "id": 9,
                 "details": "Mei is able to freeze D.VA in place, eliminating her ability to negate damage."
             },
@@ -272,7 +272,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "Zürich, Switzerland",
         "difficulty": 1,
-        "counter": [{
+        "counters": [{
                 "id": 18,
                 "details": "Tracer"
             },
@@ -301,9 +301,9 @@
         "affiliation": "Helix Security International",
         "base_of_operations": "Giza, Egypt",
         "difficulty": 1,
-        "counter": [{
+        "counters": [{
                 "id": 19,
-                "details": "Widowmaker hard counters Pharah with her ability to snipe Pharah easily out of the air."
+                "details": "Widowmaker hard counterss Pharah with her ability to snipe Pharah easily out of the air."
             },
             {
                 "id": 15,
@@ -330,7 +330,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "Los Angeles, California, United States of America",
         "difficulty": 1,
-        "counter": [{
+        "counters": [{
                 "id": 11,
                 "details": "Pharah's Jump Jet ability allows her to avoid the short range damage that Reaper devastates with. Along with her Rocket Launcher, and Concussive Blast, Pharah is an excellent pick against Reaper."
             },
@@ -359,7 +359,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "Stuttgart, Germany",
         "difficulty": 1,
-        "counter": [{"id": 2, "details": "Bastion"},
+        "counters": [{"id": 2, "details": "Bastion"},
             {"id": 12, "details": "Reaper"},
             {"id": 6, "details": "Junkrat"}
         ],
@@ -379,7 +379,7 @@
         "affiliation": "Australian Liberation Front",
         "base_of_operations": "Junkertown, Australia",
         "difficulty": 1,
-        "counter": [{"id": 1, "details": "Ana"},
+        "counters": [{"id": 1, "details": "Ana"},
             {"id": 9, "details": "Mei"},
             {"id": 12, "details": "Reaper"}
         ],
@@ -399,7 +399,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": null,
         "difficulty": 1,
-        "counter": [{"id": 1, "details": "Ana"},
+        "counters": [{"id": 1, "details": "Ana"},
             {"id": 13, "details": "Reinhardt"},
             {"id": 24, "details": "Orisa"}
         ],
@@ -419,7 +419,7 @@
         "affiliation": "Vishkar Corporation",
         "base_of_operations": "Utopaea, India",
         "difficulty": 2,
-        "counter": [{"id": 11, "details": "Pharah"},
+        "counters": [{"id": 11, "details": "Pharah"},
             {"id": 20, "details": "Winston"},
             {"id": 6, "details": "Junkrat"}
         ],
@@ -439,7 +439,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "Gothenburg, Sweden",
         "difficulty": 2,
-        "counter": [{"id": 6, "details": "Junkrat"},
+        "counters": [{"id": 6, "details": "Junkrat"},
             {"id": 5, "details": "Hanzo"},
             {"id": 11, "details": "Pharah"}
         ],
@@ -459,7 +459,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "London, England",
         "difficulty": 2,
-        "counter": [{"id": 8, "details": "McCree"},
+        "counters": [{"id": 8, "details": "McCree"},
             {"id": 23, "details": "Sombra"},
             {"id": 6, "details": "Junkrat"}
         ],
@@ -479,7 +479,7 @@
         "affiliation": "Talon",
         "base_of_operations": "Annecy, France",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -499,7 +499,7 @@
         "affiliation": "Overwatch",
         "base_of_operations": "Watchpoint Gibraltar",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -519,7 +519,7 @@
         "affiliation": "Russian Defense Forces",
         "base_of_operations": "Krasnoyarsk Front, Russia",
         "difficulty": 3,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -539,7 +539,7 @@
         "affiliation": "The Shambali",
         "base_of_operations": "Shambali Monastery, Nepal",
         "difficulty": 3,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -559,7 +559,7 @@
         "affiliation": "Talon",
         "base_of_operations": "Dorado, Mexico",
         "difficulty": 3,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -579,7 +579,7 @@
         "affiliation": null,
         "base_of_operations": "Numbani",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -600,7 +600,7 @@
         "affiliation": "Deadlock Gang",
         "base_of_operations": "Numbani",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -621,7 +621,7 @@
         "affiliation": "Lucheng Interstellar",
         "base_of_operations": "Horizon Lunar Colony ",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -642,7 +642,7 @@
         "affiliation": "Talon",
         "base_of_operations": "Oyo, Nigeria ",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -663,7 +663,7 @@
         "affiliation": "Reinhardt Wilhelm",
         "base_of_operations": "Gothenburg, Sweden",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],
@@ -684,7 +684,7 @@
         "affiliation": "Blackwatch",
         "base_of_operations": "Dublin, Ireland",
         "difficulty": 2,
-        "counter": [{},
+        "counters": [{},
             {},
             {}
         ],

@@ -4,21 +4,40 @@ import Column from '../Column';
 import HeroIcon from '../HeroIcon';
 import CounterCard from '../CounterCard';
 import CounterTabs from '../CounterTabs';
-import HeroData from "../../utils/heroes.json";
+
+
+
+const getCounter = (heroData, counter) => {
+
+        for(let key in heroData) {
+            if (counter.id === Number(key)) {
+                return heroData[key];
+            }
+        }
+}
 
 export default class HeroCard extends Component {
     state = {
         "hero": null,
         "tabState": false,
-        "currentTab": null
+        "currentTab": null,
+        "counterOne": null,
+        "counterTwo": null,
+        "counterThree": null,
+        "counterInfo": null
     }
 
+    
 
     componentWillMount() {
 
+        const {hero} = this.props;
         this.setState({
-            "hero": HeroData
-        })
+            "hero": hero,
+            counterOne: getCounter(this.props.heroData, hero.counters[0]),
+            counterTwo: getCounter(this.props.heroData, hero.counters[1]),
+            counterThree: getCounter(this.props.heroData, hero.counters[2]),
+        });
     }
 
 
@@ -39,66 +58,79 @@ export default class HeroCard extends Component {
             this.setState(() => {
                 return {
                     "tabState": true,
-                    "currentTab": id
+                    "currentTab": id,
                 }
             });
         }
     } 
     render() {
-        let {tabState, currentTab} = this.state;
+        let {tabState, currentTab, hero, counterInfo, counterOne, counterTwo, counterThree} = this.state;
+        let {name, health, armor, shield, description, counters, icon_url} = hero;
+        
         return (
-            
+
+                
                 <div className='container'>
                     <div className="main" style={{"marginBottom": "0.5rem"}}>
                     <Row style={{"clear": "both"}}>
                         <Column column="col-1-of-3">
-                            <HeroIcon size="150"/>
+                            <HeroIcon heroImg={icon_url}/>
                         </Column>
                         <Column column="col-2-of-3">
                             <div className="main-statsbox" >
                                 <div className="row">
                                     <div className="ut-hero-heading">
-                                        HERO NAME
+                                        {name}
                                     </div>
                                 </div>
                                 <div className='row'>
                                     <div className='col-1-of-3'>
                                         <div className="main-stats">
                                             <h3>Health</h3>
-                                            <p>200</p>
+                                            <p>{health}</p>
                                         </div>
                                     </div>
                                     <div className='col-1-of-3'>
                                         <div className="main-stats">
                                             <h3>Armor</h3>
-                                            <p>0</p>
+                                            <p>{armor ? armor : 0}</p>
                                         </div>
                                     </div>
                                     <div className='col-1-of-3'>
                                         <div className="main-stats">
                                             <h3>Shield</h3>
-                                            <p>0</p>
+                                            <p>{shield}</p>
                                         </div>
                                     </div>
                                 </div>
-                                    <div className="main-statsbox__description">
-                                        <p>Hanzo’s versatile arrows can reveal his enemies or fragment to strike multiple targets. He can scale walls to fire his bow from on high, or summon a titanic spirit dragon.</p>
-                                    </div>
+                                    {/* <div className="main-statsbox__description">
+                                        <p className="main-statsbox__description-text">{description}</p>
+                                    </div> */}
                             </div>
                         </Column>
                     </Row>
                     </div>
                     <div className="margin-sides-small">
                         <div className="row">
-                            <CounterTabs tabClick={this.handleTabClick} heroID="1" currentTab={currentTab} />
-                            <CounterTabs tabClick={this.handleTabClick} heroID="2" currentTab={currentTab} />
-                            <CounterTabs tabClick={this.handleTabClick} heroID="3" currentTab={currentTab} />
+                            {counterOne &&<CounterTabs tabClick={this.handleTabClick}  
+                            currentTab={currentTab} 
+                            heroID={counterOne.id} counter={counterOne}/>}
+
+                            {counterTwo &&<CounterTabs tabClick={this.handleTabClick}  
+                            currentTab={currentTab} 
+                            heroID={counterTwo.id} counter={counterTwo}/>}
+
+                            {counterThree &&<CounterTabs tabClick={this.handleTabClick}  
+                            currentTab={currentTab} 
+                            heroID={counterThree.id} counter={counterThree}/>}
+
                         </div>
                     </div>
                     
                     <CounterCard  visibility={tabState} />
                     
             </div>
+            
         )
     }
 }
